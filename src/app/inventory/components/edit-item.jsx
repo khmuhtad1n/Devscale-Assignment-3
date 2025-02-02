@@ -79,6 +79,7 @@ export const EditButton = ({ itemData }) => {
                   >
                     <option value="kilo">Kilo</option>
                     <option value="liter">Liter</option>
+                    <option value="pcs">Pcs</option>
                   </select>
                 </form>
               </ModalBody>

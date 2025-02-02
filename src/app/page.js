@@ -23,7 +23,7 @@ export default function Home() {
             Api Structure
           </Link>
           <Link
-            href="https://google.com"
+            href="https://github.com/khmuhtad1n/Devscale-Assignment-3"
             className="opacity-70 text-white font-thin hover:bg-primary/90"
           >
             Repository
