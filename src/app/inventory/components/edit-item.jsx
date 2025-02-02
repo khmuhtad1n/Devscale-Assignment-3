@@ -68,7 +68,7 @@ export const EditButton = ({ itemData }) => {
                     placeholder="Input quantity"
                     defaultValue={itemData.quantity}
                     className="w-full px-3 py-2 border rounded-lg"
-                    min="1"
+                    min="0"
                     required
                   />
                   <select
