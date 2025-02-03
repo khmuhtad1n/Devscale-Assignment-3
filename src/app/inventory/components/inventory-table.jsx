@@ -58,7 +58,6 @@ export function InventoryTable({ data }) {
                     columnKey === "actions" ? "flex justify-center" : ""
                   }
                 >
-                  {" "}
                   {item[columnKey]}
                 </TableCell>
               )}
