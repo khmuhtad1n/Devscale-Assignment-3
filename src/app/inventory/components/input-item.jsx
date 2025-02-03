@@ -75,7 +75,6 @@ export const InputButton = () => {
                   Cancel
                 </Button>
                 <button type="submit" form="inputForm" disabled={pending}>
-                  {" "}
                   {pending ? "Adding Item..." : "Add Item"}
                 </button>
               </ModalFooter>
