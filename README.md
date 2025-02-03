@@ -22,6 +22,7 @@ A simple inventory management system built with Next.js and HeroUI.
 
 ````bash
 git clone https://github.com/yourusername/stockopname.git
+````
 
 2. Install dependencies
 ```bash
