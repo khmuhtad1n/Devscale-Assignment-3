@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Cek Gudang Yuk!",
+  title: "InventCheck!",
   description: "Devscale Assignment",
 };
 

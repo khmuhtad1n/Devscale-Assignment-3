@@ -4,9 +4,9 @@ import { Button } from "@heroui/react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-zinc-800">
-      <div className="text-center">
-        <h1 className="text-5xl font-bold mb-4 text-white">CEK GUDANG</h1>
+    <div className="min-h-screen flex items-center justify-center bg-zinc-800 animate-fade-in">
+      <div className="text-center opacity-0 animate-fade-in">
+        <h1 className="text-5xl font-bold mb-4 text-white">InventCheck!</h1>
         <p className="text-zinc-400 mb-8">
           Simple CRUD assignment 4 for devscale
         </p>
