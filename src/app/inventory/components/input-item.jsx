@@ -14,7 +14,7 @@ import {
 
 export const InputButton = () => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const [state, InputItem, pending] = useActionState(inputAction, null);
+  const [_, InputItem, pending] = useActionState(inputAction, null);
 
   const handleSubmit = async (formData) => {
     await InputItem(formData);

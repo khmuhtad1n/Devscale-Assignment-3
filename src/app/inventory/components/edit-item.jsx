@@ -14,7 +14,7 @@ import {
 
 export const EditButton = ({ itemData }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const [state, formAction, pending] = useActionState(editItem, null);
+  const [_, formAction, pending] = useActionState(editItem, null);
 
   const handleSubmit = async (formData) => {
     await formAction(formData);
