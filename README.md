@@ -11,8 +11,8 @@ A simple inventory management system built with Next.js and HeroUI.
 
 ## Tech Stack
 
-- Next.js 14
-- HeroUI React Components
+- Next.js
+- HeroUI
 - Tailwind CSS
 - appbackend.io API.
 
